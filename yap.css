@@ -1,0 +1,17 @@
+#container {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cat {
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
