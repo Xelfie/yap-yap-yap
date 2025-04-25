@@ -7,12 +7,12 @@ const waveformValues = {
 
 const openCatMouth = () => {
   const cat = document.getElementById("cat");
-  cat.src = "assets/cat-open.png";
+  cat.src = "../assets/cat-open.png";
 };
 
 const closeCatMouth = () => {
   const cat = document.getElementById("cat");
-  cat.src = "assets/cat-closed.png";
+  cat.src = "../assets/cat-closed.png";
 };
 
 navigator.mediaDevices
